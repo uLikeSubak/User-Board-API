@@ -51,6 +51,23 @@
 ##### &nbsp; // 게시글 하단에 입력창에서 댓글 입력이 가능하다.
 ##### &nbsp; // 
 &nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
 
 
 
+## ●API 명세
+#### &nbsp;0. Auth
+##### &nbsp; 회원가입: http://localhost:8002/auth/register (post)
+###### {
+######    "userId" : "testId", &nbsp;&nbsp;   
+######    "email" : "test@gmail.cpm", &nbsp;&nbsp;    
+######    "pw" : "test1234", &nbsp;&nbsp;    
+######    "nick" : "testNick"
+###### } 
+
+
+##### &nbsp; 로그인: 
+##### &nbsp; ID/PW찾기: 
+##### &nbsp; 회원정보 수정
+##### &nbsp; 회원탈퇴:  
